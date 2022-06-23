@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+nav {
+  background: #47331d;
+  height: 80px;
+  width: 100%;
+}
+.navlabel {
+  color: white;
+  font-size: 35px;
+  line-height: 30px;
+  padding: 0 100px;
+  font-weight: bold;
+  width: 100%;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 30%;
+  margin: 0 5px;
+}
+#nava {
+  color: white;
+  font-size: 17px;
+  padding: 20px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  width: 100%;
+}
+a.active,
+a:hover {
+  background: darkgoldenrod;
+  transition: 0.5s;
+}
+.image {
+  margin: 5px;
+  box-sizing: border-box;
+}
+.my_image {
+  width: 250px;
+  height: 400px;
+  border-radius: 50%;
+}
+.container {
+  background-size: cover;
+  background-color: darkgoldenrod;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.core-values {
+  text-align: center;
+}
+.skills {
+  background-size: cover;
+  background-color: #47331d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.list {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-left: 5px;
+  width: auto;
+}
+p {
+  display: flex;
+  margin: 0 5px;
+  color: white;
+}
+footer {
+  text-align: center;
+  font-size: large;
+  background-color: #68755b;
+  margin-top: 5px;
+}
+.button {
+  cursor: pointer;
+  margin: 4px 2px;
+  padding: 15px 60px;
+  color: white;
+  background-color: #47331d;
+  border: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: larger;
+}
+h3 {
+  text-align: center;
+}
+main {
+  width: 100%;
+}
+@media screen and (max-width: 575px) {
+  .button {
+    flex-direction: column;
+  }
+  p {
+    flex-direction: column;
+    margin-left: 20px;
+    text-align: justify;
+  }
+  h1 {
+    margin-left: 20px;
+  }
+  nav {
+    background: #47331d;
+    height: 250px;
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+  h3 {
+    text-align: justify;
+    margin: 10px;
+  }
+  .core-values {
+    text-align: justify;
+    margin-left: 20px;
+  }
+  .skills {
+    flex-direction: column;
+    justify-content: right;
+  }
+  nav ul {
+    float: left;
+    margin-right: 20px;
+  }
+  .navlabel {
+    color: white;
+    font-size: 25px;
+    line-height: 50px;
+    padding: 0 100px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .list {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  nav ul li {
+    display: flex;
+    flex-direction: column;
+    line-height: 30%;
+    margin: 0 5px;
+  }
+  #nava {
+    padding: 20px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    width: 100%;
+  }
+  main {
+    background-color: darkgoldenrod;
+  }
+}

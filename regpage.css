@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+nav {
+  background: #47331d;
+  height: 80px;
+  width: 100%;
+}
+.navlabel {
+  color: white;
+  font-size: 35px;
+  line-height: 30px;
+  padding: 0 100px;
+  font-weight: bold;
+  width: 100%;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 30%;
+  margin: 0 5px;
+}
+#nava {
+  color: white;
+  font-size: 17px;
+  padding: 20px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  width: 100%;
+}
+a.active,
+a:hover {
+  background: darkgoldenrod;
+  transition: 0.5s;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #47331d;
+  color: white;
+}
+p {
+  text-align: center;
+  font: 800;
+  margin: auto;
+  padding: 3px;
+}
+tr {
+  margin: 20px;
+  padding: 20px;
+}
+td {
+  margin: 10px;
+  padding: 10px;
+}
+.submit {
+  text-align: center;
+  font-size: large;
+  color: black;
+}
+main {
+  background-color: darkgoldenrod;
+  height: 550px;
+}
+footer {
+  text-align: center;
+  font-size: small;
+  background-color: #68755b;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 575px) {
+  .button {
+    flex-direction: column;
+  }
+  p {
+    flex-direction: column;
+    margin-left: 20px;
+    text-align: justify;
+  }
+  h1 {
+    margin-left: 20px;
+  }
+  nav {
+    background: #47331d;
+    height: 250px;
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+  h3 {
+    text-align: justify;
+    margin: 10px;
+  }
+  .core-values {
+    text-align: justify;
+    margin-left: 20px;
+  }
+  .skills {
+    flex-direction: column;
+    justify-content: right;
+  }
+  nav ul {
+    float: left;
+    margin-right: 20px;
+  }
+  .navlabel {
+    color: white;
+    font-size: 25px;
+    line-height: 50px;
+    padding: 0 100px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .list {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  nav ul li {
+    display: flex;
+    flex-direction: column;
+    line-height: 30%;
+    margin: 0 5px;
+  }
+  #nava {
+    padding: 20px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    width: 100%;
+  }
+  main {
+    background-color: darkgoldenrod;
+  }
+}
